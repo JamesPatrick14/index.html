@@ -5,7 +5,7 @@ html{
     height: 100%;
 }
 .body1{
-    background-image: url("cloud.jpg");
+    background-image: url("cloud.png");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -13,14 +13,14 @@ html{
     height: 100%;
 }
 .body2{
-    background-image: url("newyork.jpg");
+    background-image: url("newyork.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
 }
 .body3{
-    background-image: url("mountain.jpg");
+    background-image: url("mountain.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
