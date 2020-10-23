@@ -1,68 +1,181 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-h1{
-	text-align: center;
+.body1{
+    background-image: url("falls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-color: white;
+    height: 100%;
 }
-body
-{
-	background-color: pink;
-    background-size: 100%;
-    font-family: sans-serif;
+.body2{
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
-img{
-	float: left;
-	margin-left: 6px;
-	padding-top: 6px;
+.body3{
+    background-image: url("bundok.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
-p{
-	padding-top: 22px;
-	margin-right:222px;
-	text-align: justify;
-	float: right;
+li, a{
+    font-weight: 500;
+    font-size:  20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Noir";
+    src: url("Regular 800.otf");
+   
 }
-.nav{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: auto;
-	background-color: blue;
+header{
+    background-color: #015668;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 5%;
 }
-.skill{
-	font-size: 250%;
-	margin-top: 50px;
-	padding-left: 40px;
+.logo{
+ margin-right: auto;
+    cursor: pointer;
+    font-family: "Odachi";
+    font-size: 30px;
 }
-li a{
-	display: block;
-	color: black;
-	padding: 8px 16px;
-	text-decoration: none;
-	font-size: 150%;
-	text-align: left;
+.nav_link{
+    list-style: none;
 }
-li a:hover{
-	background-color: red;
-	color: white;
+.nav_link li{
+    display: inline-block;
+    padding: 0px 50px;
 }
-.active{
-	background-color: yellow;
-	color: white;
+.nav_link li a:hover {
+    color: black;
 }
-.footer1{
-	text-align: center;
+.nav_link li a{
+    transition:  all 0.3s ease 0s;
 }
-.footer2{
-	text-align: center;
-	padding: 300px;
+.intro1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
-.footer3{
-	text-align: center;
-	margin-top: 105px;
+.text1{
+    text-decoration: none;
+    font-family: "Noir";
+    src: url("Medium 500.otf");
+    padding: 50px;
+    text-shadow: 2px 2px black;
 }
-.footer4{
-	text-align: center;
-	padding: 300px;
+.text2{
+    font-family: "Noir";
+    text-shadow: 2px 2px black;
+}
+.butones{
+    width: auto;
+    padding: 10px 18px;
+    background-color:  #015668;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
+.intro2{
+    text-align: left;
+    font-size: 30px;
+    padding: 200px 4%;
+    margin: auto;
+    color: #ffd369;
+}
+.text3{
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+.text4{
+    text-shadow: 2px 2px black;
+}
+.box{
+    width: 300px;
+    text-align: center;
+    background: rgba(2, 54, 133, 0.411);
+    padding: 20px;
+    margin: 8% auto 0;
+    font-size: 16px;
+    color: #ffd369;;
+}
+input[type=text]{
+    width: 80%;
+    padding: 5px 5%;
+    display: inline-block;
+    border: 1px solid #cccccc;
+}
+.intro3{
+    text-align: center;
+    background-image: url("cloud.jpg");
+    background-size: cover;
+    padding: 10px;
+    
+    font-family: "Noir";
+    src: url("Medium 500.otf");
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.text5{
+    text-shadow: 1px 1px black;
+}
+.text6{
+    text-shadow:2px 2px black;
+}
+.box1{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 5%;
+    position: absolute;
+}
+.open1{
+    text-align: center;
+}
+.box2{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 40%;
+    position: absolute;
+}
+.box3{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    right: 5%;
+    position: absolute;
+}
+.contactp{
+    font-size: 18px;
+   text-shadow: 1px 1px black;
 }
